@@ -1,6 +1,3 @@
 public class Game {
-    public static int countOfUnits = 0;
-    public static void print(){
-        System.out.println(countOfUnits);
-    }
+    private String name = "Русы против ящеров - 2";
 }

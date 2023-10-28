@@ -1,19 +1,12 @@
 public class Unit {
     protected String name;
-    protected String surname;
     protected int health = 100;
     protected int defence = 100;
     protected int power = 10;
 
     public Unit(String name) {
-        Game.countOfUnits++;
         this.name = name;
     }
-
-    /*public Unit(String name, String surname) {
-        this(name);
-        this.surname = surname;
-    }*/
 
     protected float criticalChance = 0.1f;
     protected float parryChance = 0.1f;

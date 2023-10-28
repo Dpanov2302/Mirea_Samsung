@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         Game game1 = new Game();
         Unit unit1 = new Unit("Sasha");
         Unit unit2 = new Unit("Aleksey");
@@ -8,7 +9,6 @@ public class Main {
         Wizard wizard1 = new Wizard("W1");
         Wizard wizard2 = new Wizard("W2");
 
-        Game.print();
 
     }
 }

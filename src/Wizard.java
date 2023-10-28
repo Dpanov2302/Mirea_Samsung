@@ -6,7 +6,6 @@ public class Wizard extends Unit{
         super(name);
         health = 80;
         power = 25;
-
     }
 
     @Override
